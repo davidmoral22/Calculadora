@@ -8,14 +8,6 @@
         </shape>
     </item>
 
-    <!-- Cuando el cursor está ENCIMA (Hover) -->
-    <item android:state_hovered="true">
-        <shape android:shape="rectangle">
-            <solid android:color="#52BE80"/>
-            <corners android:radius="8dp"/>
-        </shape>
-    </item>
-
     <!-- Estado normal -->
     <item>
         <shape android:shape="rectangle">
