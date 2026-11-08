@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Cuando se presiona el botón -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#D4AC0D"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Cuando el cursor está ENCIMA -->
+    <item android:state_hovered="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#F7DC6F"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Estado normal -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F1C40F"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+</selector>
